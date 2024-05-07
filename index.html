@@ -22,16 +22,16 @@
 
         <nav class="navegation">
             <ul class="menu-list">
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Hobbies</a></li>
-                <li><a href="">Formacion Academica</a></li>
-                <li><a href="">Experiencia profesional</a></li>
-                <li><a href="">Contactame</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacion-academica">Formacion Academica</a></li>
+                <li><a href="#experiencia-profesional">Experiencia profesional</a></li>
+                <li><a href="#contactame">Contactame</a></li>
             </ul>
 
-            <p class="menu-list-item-contacto">grsn.gnzls.14@gmail.com</p>
+            <p class="menu-list-item-contacto">grsn.gnzls.14@hotmail.com</p>
         </nav>
 
         </div>
@@ -41,13 +41,13 @@
         <div class="contenedor-hero">
 
             <div class="contenedor-info">
-                <h1>Hola, mi nombre es Gerson Gonzales <br>soy Frontend Developer</h1>
+                <h1>Hola, mi nombre es <br> Gerson Gonzales, soy un <br> <span>Frontend Developer</span></h1>
             
                 <br>
             
                 <ul class="mis-redes">
-                    <li>
-                         <a href="">Github</a>
+                    <li class="lista-redes">
+                         <a href="https://github.com/GersonGonzales" target="_blank">Github</a>
                          <img src="iconos/vector.svg" alt="">
                     </li>
     
@@ -57,7 +57,7 @@
                     </li>
     
                     <li>
-                         <a href="">Instragram</a>
+                         <a href="https://www.instagram.com/grsn.gnzls.14/" target="_blank">Instragram</a>
                          <img src="iconos/vector.svg" alt="">
                     </li>
                 </ul>
@@ -80,11 +80,24 @@
         <section id="sobre-mi">
             <div class="contenedor-sobre-mi">
                 <h2 class="titulo-principal">Sobre mi</h2>
-                <p>Hola vivo en Lima,Perú.</p>
-                <p>Soy estudiante Frontend del programa One de Oracle junto con Alura.</p>
-                <br>
-                <p>Actualmente soy freelancer en workana</p>
-                <p>Me gustaria tener la oportunidad de participar en una empresa como frontend developer.</p>
+                <!--
+                  <p>Soy estudiante Frontend del programa One de Oracle junto con Alura.</p>
+
+                -->
+                <p>Desarrollador Frontend dedicado a impulsar la innovación y la calidad en cada proyecto en el que trabajo.</p>
+                  <p>Con 1 año de experiencia, he tenido la oportunidad de sumergirme en proyectos emocionantes donde se han desarrollado habilidades sólidas en HTML, CSS, JavaScript y React.</p>
+                
+                 <!--
+                  Uno de los proyectos más destacados en los que participé fue la creación de una aplicación web para la gestión de tareas, donde fui responsable de desarrollar la interfaz de usuario utilizando React y mejorar la experiencia del usuario mediante la implementación de animaciones y transiciones suaves.
+                 -->
+                 <!-- En este proyecto, lideré el equipo de desarrollo en la implementación de nuevas funcionalidades utilizando tecnologías como HTML, CSS, JavaScript y React, lo que resultó en un aumento del 20% en las conversiones de ventas. Además, me encargué de optimizar el rendimiento del sitio web, mejorando significativamente su velocidad de carga y experiencia del usuario.-->
+                 
+                 <p>Encantado de transformar diseños en código limpio y funcional, priorizando la usabilidad y la accesibilidad..</p>
+
+                
+                <p>Comprometido con la mejora continua y siempre buscando desafíos que permitan expandir las habilidades y conocimientos en este apasionante campo. Además de las habilidades técnicas, valoro la comunicación efectiva, el trabajo en equipo, así como la capacidad de adaptación y la resolución de problemas.</p>
+                
+                
                     
                         
                 <img src="firma/firma.svg" alt="">
@@ -170,22 +183,22 @@
         <section id="formacion-academica">
             <h2 class="titulo-principal">Formación Académica</h2>
 
-            <div class="container-formacion">
+            <div class="contenedor-formacion-div">
       
                 <div class="contenedor-formacion">
-                  <img src="iconos-formacion-academica/alura.svg" alt="">
+                  <img class="img-alura" src="iconos-formacion-academica/alura.svg" alt="">
                   <p class="mi-formacion">Logica de Programacion</p>
                   <p class="año">2024- Alura</p>
                 </div>
       
                 <div class="contenedor-formacion">
-                  <img class="img-udemy" src="iconos-formacion-academica/udemy.png" alt="">
+                  <img class="img-udemy" src="iconos-formacion-academica/udemy.png" alt="" >
                   <p class="mi-formacion">Especializacion en Css3 </p>
                   <p class="año">En curso - Udemy</p>
                 </div>
       
                 <div class="contenedor-formacion">
-                  <img  class="img-udemy" src="iconos-formacion-academica/alura.svg" alt="">
+                  <img  class="img-alura" src="iconos-formacion-academica/alura.svg" alt="">
                   <p class="mi-formacion">Especializacion en Frontend</p>
                   <p class="año">En curso - Alura</p>
                 </div>
@@ -207,108 +220,133 @@
                 <div class="contenedor-projectos">
                   <img src="experiencia-profesional/codigosecreto.svg" alt="">
                   
-                  <h3 class="titulo-projecto">Encriptador de texto</h3>
-                  <p>Challenge Oracle</p>
-                 <!--
-                    <input class="input-repositorio"  type="submit" value="Repositório">
-                  <input  class="input-ver-demo" type="submit" value="Ver demo">
-                 --> 
-                 <div class="btn">
-                    <button class="btn-repositorio">Repositorio</button>
-                    <button class="btn-ver-pagina">Ver Pagina</button>
-                </div>
+                  <div>
+                      <h3 class="titulo-projecto">Encriptador de texto</h3>
+                      <p>Challenge Oracle</p>
+                     <!--
+                        <input class="input-repositorio"  type="submit" value="Repositório">
+                      <input  class="input-ver-demo" type="submit" value="Ver demo">
+                     --> 
+                     <div class="btn">
+                        <button class="btn-repositorio">Repositorio</button>
+                        <button class="btn-ver-pagina">Ver Pagina</button>
+                    </div>
+                  </div>
                 </div>
       
       
-                <div class="contenedor-projectos">
+                <div class="contenedor-projectos">  
                   <img src="experiencia-profesional/ahorcado1.svg" alt="">
-                  <h3 class="titulo-projecto">Barberia Alura</h3>
-                  <p>Challenge Oracle</p>
-                  <!--
-                      <input class="input-repositorio" type="submit" value="Repositório">
-                      <input class="input-ver-demo" type="submit" value="Ver demo">
-                  -->
-                  <div class="btn">
-                    <button class="btn-repositorio">Repositorio</button>
-                    <button class="btn-ver-pagina">Ver Pagina</button>
+                  <div>
+                      <h3 class="titulo-projecto">Barberia Alura</h3>
+                      <p>Challenge Oracle</p>
+                        <div class="btn">
+                          <button class="btn-repositorio">Repositorio</button>
+                          <button class="btn-ver-pagina">Ver Pagina</button>
+                        </div>
+                  </div>
                 </div>
-                </div>
-      
+                <!--
+                    <input class="input-repositorio" type="submit" value="Repositório">
+                    <input class="input-ver-demo" type="submit" value="Ver demo">
+                -->
+                
       
                 <div class="contenedor-projectos">
                   <img src="experiencia-profesional/encriptadortexto.svg" alt="">
-                  <h3 class="titulo-projecto">Encriptador de mensajes</h3>
-                  <p>Challenge Oracle</p>
 
-                  <!--
-                      <input class="input-repositorio"  type="submit" value="Repositório">
-                      <input class="input-ver-demo" type="submit" value="Ver demo">
-                  -->
-                  <div class="btn">
-                    <button class="btn-repositorio">Repositorio</button>
-                    <button class="btn-ver-pagina">Ver Pagina</button>
+                    <div>
+                      <h3 class="titulo-projecto">Encriptador de mensajes</h3>
+                      <p>Challenge Oracle</p>
+    
+                        <div class="btn">
+                          <button class="btn-repositorio">Repositorio</button>
+                          <button class="btn-ver-pagina">Ver Pagina</button>
+                        </div>
+                    </div>
                 </div>
-                </div>
-      
+                <!--
+                    <input class="input-repositorio"  type="submit" value="Repositório">
+                    <input class="input-ver-demo" type="submit" value="Ver demo">
+                -->
+                
       
                 <div class="contenedor-projectos">
                   <img src="experiencia-profesional/ahorcado2.svg" alt="">
-                  <h3 class="titulo-projecto">Encriptador de mensajes</h3>
-                  <p>Challenge Oracle</p>
 
-                  <!--
-                      <input class="input-repositorio"  type="submit" value="Repositório">
-                      <input class="input-ver-demo" type="submit" value="Ver demo">
-                  -->
-                  <div class="btn">
-                      <button class="btn-repositorio">Repositorio</button>
-                      <button class="btn-ver-pagina">Ver Pagina</button>
+                  <div>
+                      <h3 class="titulo-projecto">Encriptador de mensajes</h3>
+                      <p>Challenge Oracle</p>
+    
+                      <!--
+                          <input class="input-repositorio"  type="submit" value="Repositório">
+                          <input class="input-ver-demo" type="submit" value="Ver demo">
+                      -->
+                      <div class="btn">
+                          <button class="btn-repositorio">Repositorio</button>
+                          <button class="btn-ver-pagina">Ver Pagina</button>
+                      </div>
                   </div>
+
                 </div>
         </section>
 
         <section id="contactame">
 
-            <div class="contactame-mensaje">
-                <h2 class="titulo-principal">Contactame</h2>
+          <div class="contenido-imagen-mas-contacto">
 
-                <p>¿Quieres contactarme?<br>
-                    Complete el siguiente formulario  y me 
-                    pondré en contacto con usted lo antes 
-                    posible.</p>
+               <div class="contenido-imagen-de-contacto">
+                <img src="contacto-img/contacto.svg" alt="">
+               </div>
+
+
+
+               <div class="contenido-form-desktop">
+                    <div class="contactame-mensaje">
+                        <h2 class="titulo-principal">Contactame</h2>
+                        <p>¿Quieres contactarme?<br>
+                           Complete el siguiente formulario  y me 
+                           pondré en contacto con usted lo antes 
+                           posible.</p>
+                    </div>
+
+                    <form action="https://formsubmit.co/grsn.gnzls.14@hotmail.com" method="POST">
+                           <div class="div-padron">
+                                <input type="text" id="nombres" name="nombre" class="input-form">
+                                <label class="label-padron" for="nombres">Nombres :</label>
+                           </div>
+    
+                           <div class="div-padron">
+                                <input type="email" id="e-mail" name="email"  class="input-form">
+                                <label for="e-mail">E-mail ::</label>
+                           </div>
+    
+                           <!--
+                           <div class="div-padron">
+                                <input type="text" id="pais" name="pais" class="input-form">
+                                <label for="pais">Pais :</label>
+                           </div>
+                           -->
+    
+                           <div class="div-padron">
+                                <input type="text" name="asunto" class="input-form">
+                                <label for="asunto">Asunto :</label>
+                           </div>
+    
+                          <div class="div-padron-textarea">
+                                <textarea name="mensaje" id="" cols="30" rows="10" class="input-form"></textarea>
+                                <label for="">Mensaje</label>
+                          </div>
+        
+                          <div class="contenido-button">
+                                <button type="submit" class="enviar-mensaje">Enviar Mensaje</button>
+                          </div>
+              </form>
+
             </div>
 
-            <form action="">
-                <div class="div-padron">
-                    <input type="text" id="nombres" class="input-form">
-                    <label class="label-padron" for="nombres">Nombres :</label>
-                  </div>
-    
-                  <div class="div-padron">
-                    <input type="email" id="e-mail"  class="input-form">
-                    <label for="e-mail">E-mail ::</label>
-                  </div>
-    
-                  <div class="div-padron">
-                    <input type="text" id="pais" class="input-form">
-                    <label for="pais">Pais :</label>
-                  </div>
-    
-                  <div class="div-padron">
-                    <input type="text" class="input-form">
-                    <label for="asunto">Asunto :</label>
-                  </div>
-    
-                  <div class="div-padron-textarea">
-                    <textarea name="" id="" cols="30" rows="10" class="input-form"></textarea>
-                    <label for="">Mensaje</label>
-                  </div>
-    
-                  
-                  <div class="contenido-button">
-                </div>
-                <button class="enviar-mensaje">Enviar Mensaje</button>
-                  </form>
+          </div>
+          
         </section>
     </main>
     <footer>
